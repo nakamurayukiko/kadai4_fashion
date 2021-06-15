@@ -1,0 +1,200 @@
+@media screen and (max-width: 768px){
+  
+  header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    height: auto;
+  }
+
+  header h1 a{
+    font-family: "Bodoni URW";
+    font-size: 20px; 
+    margin: 0;
+    
+  }
+  
+  header h1 a:hover {
+    border-bottom: 1px solid #333333;
+  }
+
+  .header-right {
+    font-size: 18px;
+    
+  }
+
+  .header-right:hover {
+    opacity: 0.7;
+  }
+  
+  .main {
+    height: auto;
+    
+  }
+  
+  .main-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+  }
+  
+  .main-img h2 {
+    padding-top: 80px;
+    font-family: "Myriad Pro";
+    font-size: 50px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    
+  }
+  
+  .main-img p {
+    font-family: "Noto Serif JP";
+    font-size: 20px;
+    padding-left: 90px;
+    padding-bottom: 25px;
+    font-weight: normal;
+    
+   
+  }
+  
+  .main-img a {
+    display: inline-block;
+    margin-left: 0;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    
+  }
+ 
+  
+  .img-wrapper {
+    
+    width: 130px;
+    height: 333px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    
+  
+  }
+  
+  .bottom-wrapper {
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+    
+  }
+  
+  .dots {
+    margin: 0;
+    margin-top: 5px;
+    
+  }
+  
+ 
+  .first-dot {
+    width: 8px;
+    height: 8px;
+   
+  }
+  
+  
+  .second-dot {
+
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .third-dot {
+    width: 8px;
+    height: 8px;
+    
+  }
+  
+  .bottom-img {
+    
+    width: 100%;
+    
+  }
+  
+  .bottom-left{
+    
+    position:relative;
+    padding-left: 20px;
+   
+  }
+  
+  .gray-img {
+    background-color: #dedede;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 53px;
+    width: 85%;
+    height: 250px;
+  }
+  
+  .baige-img {
+    background-color: #f5f0e9;
+    z-index: 1;
+    position: absolute;
+    top: 49px;
+    
+    width: 90%;
+    height: 200px;
+  }
+  
+  
+  .bottom-right{
+    padding:40px 20px;
+    text-align: center;
+   
+    
+    
+  }
+  
+  .bottom-right p {
+    font-size: 14px;
+    
+  }
+  
+  .bottom-right h2 {
+    font-family: "Didot";
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .copy {
+    font-size: 14px; 
+    margin-bottom: 22px;
+    
+  }
+  
+  .bottom-right a {
+    font-size: 14px;
+    
+  }
+  
+  .bottom-right a:hover {
+    border-bottom: none;
+    opacity: 0.7;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+}

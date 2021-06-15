@@ -1,0 +1,253 @@
+*{
+  box-sizing: border-box;
+}
+
+li {
+ list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, a, h1 {
+  color: #333333;
+}
+
+header {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 37px;
+  padding-bottom: 34px;
+
+  white-space: nowrap;
+  margin: 0 auto;
+  height: 94px;
+}
+
+header ul {
+  display: flex;
+  width: 416px;
+  justify-content: space-between;
+
+
+}
+
+.hd a{
+  font-family: "Bodoni URW";
+  font-size: 15px; 
+  letter-spacing: 0.2em;
+  
+}
+
+.hd a:hover {
+  border-bottom: 1px solid #333;
+}
+
+
+header h1 a{
+  font-family: "Bodoni URW";
+  font-size: 36px; 
+  margin-left: 95px;
+  margin-right: 95px; 
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  
+}
+
+header h1 a:hover {
+  border-bottom: 1px solid #333333;
+}
+
+.main {
+  background-color: #f1dfc8;
+  height: 706px;
+  overflow: hidden;
+  
+}
+
+.main-img {
+  width: 1200px;
+  
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.main-img h2 {
+  padding-top: 208px;
+  font-family: "Myriad Pro";
+  font-size: 167px;
+  color: #ffffff;
+  font-weight: 400;
+  transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  padding-bottom: 14px;
+  padding-left: 87px;
+  
+}
+
+.main-img p {
+  font-family: "FOT-マティス ProN";
+  font-size: 24px;
+  padding-left: 289px;
+  padding-bottom: 45px;
+  letter-spacing: 0.2em;
+}
+
+.main-img a {
+  margin-left: 277px;
+  font-size: 18px;
+  font-family: "Futura PT";
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 8px;
+  margin-bottom: 225px;
+}
+
+.main-img a:hover {
+  border-bottom: none;
+  opacity: 0.7;
+}
+
+
+.img-wrapper {
+  display: inline-block;
+  width: 389px;
+  height: 999px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  
+
+}
+
+.bottom-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 33px;
+  
+}
+
+.dots {
+  text-align: center;
+  margin-bottom: 80px;
+  
+}
+
+.dots a:hover {
+  opacity: 0.7;
+}
+
+.first-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+
+.second-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dedede;
+  margin-right: 43px;
+  margin-left: 43px;
+}
+
+.third-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dedede;
+}
+
+.bottom-img {
+  
+  width: 1200px;
+  
+}
+
+.bottom-left{
+  
+  position:relative;
+}
+
+.gray-img {
+  background-color: #dedede;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 33px;
+  width: 700px;
+  height: 270px;
+}
+
+.baige-img {
+  background-color: #f5f0e9;
+  z-index: 1;
+  position: absolute;
+  top: 49px;
+  
+  width: 690px;
+  height: 225px;
+}
+
+.bottom-right{
+  padding-left: 817px;
+  padding-top: 56px;
+  color: #333333;
+  
+}
+
+.bottom-right p {
+  font-family: "Futura";
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+}
+
+.bottom-right h2 {
+  font-family: "Didot";
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.copy {
+  font-family: "游明朝体";
+  font-size: 18px; 
+  letter-spacing: 0.3em;
+  margin-bottom: 44px;
+}
+
+.bottom-right a {
+  font-family: "Futura PT";
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #333333;
+  
+}
+
+.bottom-right a:hover {
+  border-bottom: none;
+  opacity: 0.7;
+}
+
+.sp {
+  display: none;
+}

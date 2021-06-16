@@ -61,11 +61,26 @@ header h1 a:hover {
   border-bottom: 1px solid #333333;
 }
 
+.nav-wrapper {
+  display: flex;
+}
 .main {
   background-color: #f1dfc8;
   height: 706px;
   overflow: hidden;
   
+}
+
+.main2 {
+  background-color: #bdeed3;
+  height: 706px;
+  overflow: hidden;
+}
+
+.main3 {
+  background-color: #eebdc9;
+  height: 706px;
+  overflow: hidden;
 }
 
 .main-img {
@@ -116,7 +131,7 @@ header h1 a:hover {
 }
 
 
-.img-wrapper {
+.main .img-wrapper {
   display: inline-block;
   width: 389px;
   height: 999px;
@@ -125,53 +140,75 @@ header h1 a:hover {
   position: absolute;
   top: 45px;
   right: 30px;
-  
-
 }
+
+.main2 .img-wrapper {
+  display: inline-block;
+  width: 389px;
+  height: 999px;
+  border-radius: 50%;
+  background: #ebf0d3;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+}
+
+.main3 .img-wrapper {
+  display: inline-block;
+  width: 389px;
+  height: 999px;
+  border-radius: 50%;
+  background: #a797e4;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+}
+
 
 .bottom-wrapper {
   width: 1200px;
   margin: 0 auto;
-  padding-top: 33px;
+  padding-top: 88px;
   
 }
 
-.dots {
+.slick-dots {
+  display: flex;
   text-align: center;
   margin-bottom: 80px;
+  padding-top: 33px;
+  
   
 }
 
-.dots a:hover {
+.slick-dots a:hover {
   opacity: 0.7;
 }
 
-.first-dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #000000;
+.slick-dots {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 43px;
 }
-
-
-.second-dot {
-  display: inline-block;
+.slick-dots li {
+  
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background: #dedede;
   margin-right: 43px;
-  margin-left: 43px;
 }
 
-.third-dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #dedede;
+.slick-dots .slick-active {
+  background: #050505;
 }
+
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {
+  display: none;
+}
+
+
 
 .bottom-img {
   
@@ -250,4 +287,8 @@ header h1 a:hover {
 
 .sp {
   display: none;
+}
+
+body.noscroll{
+  overflow: hidden;
 }

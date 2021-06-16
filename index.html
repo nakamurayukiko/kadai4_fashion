@@ -5,45 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  
 </head>
 <body>
   <header>
-    <div class="header-left hd pc">
-      <ul>
-        <li><a href="#">NEW IN</a></li>
-        <li><a href="#">COLLECTION</a></li>
-        <li><a href="#">LOOKBOOK</a></li>
-      </ul>  
+    <h1><a href="#" class="sp">LAMINA</a></h1>
+    <div class="nav-wrapper">
+      <div class="header-left hd">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">NEW IN</a></li>
+            <li class="nav-item"><a href="#">COLLECTION</a></li>
+            <li class="nav-item"><a href="#">LOOKBOOK</a></li>
+            <li class="nav-item sp"><a href="#">OUR STORY</a></li>
+            <li class="nav-item sp"><a href="#">NEWS</a></li>
+            <li class="nav-item sp"><a href="#">STORES</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1><a href="#" class="pc">LAMINA</a></h1>
+      <div class="header-right hd pc">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">OUR STORY</a></li>
+            <li class="nav-item"><a href="#">NEWS</a></li>
+            <li class="nav-item"><a href="#">STORES</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <h1><a href="#">LAMINA</a></h1>
-    <div class="header-right hd pc">
-      <ul>
-        <li><a href="#">OUR STORY</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">STORES</a></li>
-      </ul>
+    <div class="burger-btn sp"><!-- ③ハンバーガーボタン -->
+      <span class="bar bar_top"></span>
+      <span class="bar bar_mid"></span>
+      <span class="bar bar_bottom"></span>
     </div>
-    <div class="header-right sp"><a href=""><i class="fas fa-bars"></i></a></div>
+    
   </header>
   <main>
-    <div class="main">
-      <div class="main-img">
-        <div class="text-wrapper">
-          <h2>Primitive</h2>
-          <p>太古の誇りを</p>
-          <div class="discover"><a href="#">Discover the Collection</a></div>
+    <ul class="slick01 ">
+      <li class="main">
+        <div class="main-img">
+          <div class="text-wrapper">
+            <h2>Primitive</h2>
+            <p>太古の誇りを</p>
+            <div class="discover"><a href="#">Discover the Collection</a></div>
+          </div>
+          <div class="img-wrapper"></div>
         </div>
-        <div class="img-wrapper"></div>
-      </div>
-    </div>
+      </li>
+      <li class="main2">
+        <div class="main-img">
+          <div class="text-wrapper">
+            <h2>Primitive</h2>
+            <p>太古の誇りを</p>
+            <div class="discover"><a href="#">Discover the Collection</a></div>
+          </div>
+          <div class="img-wrapper"></div>
+        </div>
+      </li>
+      <li class="main3">
+        <div class="main-img">
+          <div class="text-wrapper">
+            <h2>Primitive</h2>
+            <p>太古の誇りを</p>
+            <div class="discover"><a href="#">Discover the Collection</a></div>
+          </div>
+          <div class="img-wrapper"></div>
+        </div>
+      </li>
+    </ul>
+
 
     <div class="bottom-wrapper">
-      <div class="dots"><a href="#"><span class="first-dot"></span></a><a href="#"><span class="second-dot"></a></span><a href="#"><span class="third-dot"></span></a>
-      </div>
       <div class="bottom-img">
         <div class="bottom-right sp">
           <p>2020 SS Collction</p>
@@ -64,6 +101,9 @@
       </div>
     </div>
   </main>
+  <script src="script/jquery-3.6.0.min.js"></script>
+  <script src="script/slick.min.js"></script>
+  <script src="script/script.js"></script>
   
 </body>
 </html>
